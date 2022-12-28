@@ -19,13 +19,13 @@ readme = open('README.rst').read()
 description = "Conveniently store reference to request user on thread/db level."
 
 setup(
-    name='django-currentuser',
+    name='django-current-user',
     version=version,
     description=description,
     long_description=readme,
     author='Paessler AG',
     author_email='bis@paessler.com',
-    url='https://github.com/PaesslerAG/django-currentuser',
+    url='https://github.com/Hut42/django-currentuser',
     packages=[
         'django_currentuser',
     ],
